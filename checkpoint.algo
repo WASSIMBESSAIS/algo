@@ -1,0 +1,18 @@
+ALGORITHM checkpoint
+VAR
+     H : CHAR := "H"
+     e : CHAR := "e"
+     l : CHAR := "l"
+     o : CHAR := "o"
+     i : CHAR := "."
+     sum : STRING := "Hello."
+BEGIN
+     read(H)
+     read(e)
+     read(l)
+     read(l)
+     read(o)
+     read(i)
+     sum := h + e + l + l + o + i ;
+     write(sum)
+END
